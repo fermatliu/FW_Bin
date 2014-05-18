@@ -1,0 +1,931 @@
+DIR-825WWB1 Firmware Release Note  
+=======================================
+Firmware: v2.09WW Build: 04beta01
+Hardware: B1
+Date: 22, Jan, 2013
+checksum: 0x07C216DA
+
+Problems Resolved & Enhancements:
+1. Fixed Tools -> Time -> Set the Date and Time Manually year to 2037
+=======================================
+
+Firmware: v2.09WW Build: 04
+Hardware: B1
+Date: 29, Nov, 2012
+checksum: 0x07C25647
+	
+Problems Resolved & Enhancements:
+1. Fixed IPv6 routing status page is missing. 
+=======================================
+
+Firmware: v2.09WW Build: 03
+Hardware: B1
+Date: 22, Nov, 2012
+checksum: 0x07C2D2D6
+	
+Problems Resolved & Enhancements:
+1. Support IPv6 ULA feature.
+2. Fixed: Beacon interval issue. Modify lower limit for beacon to be 40.
+=======================================
+
+Firmware: v2.09WW Build: 02
+Hardware: B1
+Date: 27, Aug, 2012
+checksum: 0x07C0163B
+	
+Problems Resolved & Enhancements:
+1. Sync DIR-825B1 NA, support IPv6 v1.17R+ UNH-IOL IPv6 Test plan v1.00b7.
+2. QRS mobile 1.0.1.1
+3. Fixed TSD Bug#14778: Clicking "Don't Save Settings" button will clear check box in web uI.
+4. Fixed TSD Bug#14539: Admin and User password can use "Full-width", but user will not able to login after new password is saved.
+5. Fixed TSD Bug#14519: Routing rule can be saved if using one single digit as rule name.
+=======================================
+
+Firmware: v2.09WW Build: 01
+Hardware: B1
+Date: 02, Jul, 2012
+checksum: 0x07C08175
+	
+Problems Resolved & Enhancements:
+1. Fixed WPA-PSK key cannot save.
+2. TSD bug :12618  Modify When we use “NetBIOS node type - Broadcast only”, Primary WINS IP Address and Secondary WINS IP Address should be gray out
+3. TSD bug :12564  Fixed Error: Setting will be cleared by click “Don’t Save” button.
+4. Fixed igmp multicast snooping issue,( DIR-825B1 belongs to “Acceptable case”)
+=======================================
+
+Firmware: v2.08WW Build: 04
+Hardware: B1
+Date: 23, Mar, 2012
+checksum: 0x07DE41FC
+
+Problems Resolved & Enhancements:
+1. Base on IPv6 Spec v1.17R (without firewall, ds-lite)
+Support No Education Fits All; No Child Left Behind Policy
+Support UNH-IOL IPv6 IOT Test Plan v1.00B7
+=======================================
+
+Firmware: v2.08WW Build: 03
+Hardware: B1
+Date: 14, Mar, 2012
+checksum: 0x07DE3D23
+
+Problems Resolved & Enhancements:
+1. QRS mobile can’t configure DUT, when DUT set admin password and iPad/iPhone connected to DUT with 5GHz.
+=======================================
+
+Firmware: v2.08WW Build: 02
+Hardware: B1
+Date: 14, Feb, 2012
+checksum: 0x07DEEFC7 
+
+Problems Resolved & Enhancements:
+1. Fixed QRS can not successful initialized issue (always connect to router 404 error page when wan is not alive)
+=======================================
+
+Firmware: v2.08WW Build: 01
+Hardware: B1
+Date: 10, Feb, 2012
+checksum: 0x07DE7AF4
+
+Problems Resolved & Enhancements:
+1. Support QRS Mobile. 
+=======================================
+
+Firmware: v2.06WW Build: 04
+Hardware: B1
+Date: 20, Jan, 2012
+checksum: 0x07DB8D29
+
+Problems Resolved & Enhancements:
+1. Fixed when in default setting, client tool can’t use DUT PIN code to configure DUT.
+=======================================
+
+Firmware: v2.06WW Build: 03
+Hardware: B1
+Date: 20, Jan, 2012
+checksum: 0x07DB8DD8
+
+Problems Resolved & Enhancements:
+1. Fixed when disable WPS PIN, client still can use WPS PIN to connect DUT.
+=======================================
+
+Firmware: v2.06WW Build: 02
+Hardware: B1
+Date: 19, Jan, 2012
+checksum: 0x07DBFC87
+
+Problems Resolved & Enhancements:
+1. Modify Disabled WPS-PIN default value to 1.
+=======================================
+
+Firmware: v2.06WW Build: 01
+Hardware: B1
+Date: 11, Jan, 2012
+checksum: 0x07DBFB14
+
+Problems Resolved & Enhancements:
+1.Due to D-Link urgent request, this FW is based on previous shipping FW version V2.05WWB07, and add Disable WPS-PIN method.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta09
+Hardware: B1
+Date: 05, Jan, 2012
+checksum: 0x07DD2B0D
+
+Problems Resolved & Enhancements:
+1. Fix radvd sending RA abnormally frequency again
+=======================================
+
+Firmware: v2.05WW Build: 07Beta08
+Hardware: B1
+Date: 05, Jan, 2012
+checksum: 0x07DD6F16
+
+Problems Resolved & Enhancements:
+1. Fix radvd sending RA abnormally frequency
+=======================================
+
+Firmware: v2.05WW Build: 07Beta07
+Hardware: B1
+Date: 30, Dec, 2011
+checksum: 0x07DDCF98
+
+Problems Resolved & Enhancements:
+
+1. Upgrade radvd for fixed CVE-2011-3602, CVE-2011-3604, CVE-2011-3605 security issue Ref:  http://www.debian.org/security/2011/dsa-2323
+=======================================
+
+Firmware: v2.05WW Build: 07Beta06
+Hardware: B1
+Date: 13, Dec, 2011
+checksum: 0x07DE19E0
+
+Problems Resolved & Enhancements:
+1. Fixed: DIR-825B1_v2.05WW-DDNS doesn’t update the correct WAN IP.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta05
+Hardware: B1
+Date: 16, May, 2011
+
+Firmware Version: ver2.05WWb07Beta05
+Firmware Date: Mon, 16, May, 2011
+checksum: 0x07DD4873
+
+Problems Resolved & Enhancements:
+1. Fixed Broken page of WEBUI.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta04
+Hardware: B1
+Date: 09, May, 2011
+
+Firmware Version: ver2.05WWb07Beta04
+Firmware Date: Mon, 09, May, 2011
+checksum: 0x07DCB3D8
+
+Problems Resolved & Enhancements:
+1. Fixed the bug that DLNA client can’t find DLNA server when Enable multicast and NO WAN connection.
+2. Fixed the bug that DUT can not send out IGMP packet which from LAN PC.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta03
+Hardware: B1
+Date: 09, May, 2011
+
+Firmware Version: ver2.05WWb07Beta03
+Firmware Date: Mon, 09, May, 2011
+checksum: 0x07DBDE07 
+
+Problems Resolved & Enhancements:
+1. Fixed the bug that DUT can not send out IGMP packet which from LAN PC.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta02
+Hardware: B1
+Date: 06, May, 2011
+
+Firmware Version: ver2.05WWb07Beta02
+Firmware Date: Fri, 06, May, 2011
+checksum: 0x07DCC0B7
+
+Problems Resolved & Enhancements:
+1. Fixed that DLNA client can’t find DLNA server when Enable multicast and NO WAN connection.
+=======================================
+
+Firmware: v2.05WW Build: 07Beta01
+Hardware: B1
+Date: 01, Apr, 2011
+
+Firmware Version: ver2.05WWb07Beta01 
+Firmware Date: Fri, 01, Apr, 2011 
+checksum: 0x07DB7A92
+
+Problems Resolved & Enhancements:
+1. Fixed NTP cannot work correctly.
+=======================================
+
+Firmware: v2.05WW Build: 07
+Hardware: B1
+Date: 27, Dec, 2010 
+
+Firmware Version: ver2.05WWb07 
+Firmware Date: Mon, 27, Dec, 2010 
+checksum: 0x07DB4BB6
+
+Problems Resolved & Enhancements:
+1. Fixed 5G DTIM Interval can input 0.
+=======================================
+
+Firmware: v2.05WW Build: 06
+Hardware: B1
+Date: 22, Dec, 2010 
+
+Firmware Version: ver2.05WWb06 
+Firmware Date: Wed, 22, Dec, 2010 
+checksum: 0x07DB4892
+
+Problems Resolved & Enhancements:
+1. Fixed TSD#12: L2TP descriptions texts error. It should be "Dynamic IP".
+2. Fixed TSD#9: BT issue. (device reboot)
+3. Fixed TSD#6: Sometime Logs function display error web page.
+4. Fixed TSD#3: Sometime Device info display error web page.
+5. Fixed TSD#2: WCN issue.
+6. Fixed TSD#1: 2.4G DTIM Interval can input 0.
+7. NOT support TSD#11: USB port with USB Disk, USB Print or USB Scanner, data transmission, LED not Blue Blinking.
+8. NOT support TSD#5: Input MSN.com and msn.com cannot display warning message.
+9. NOT support TSD#4: Suggest Internet sessions add “priority" field.	
+10. Support IPv6 Spec v1.14R phase 2. (Without IPv6 firewall)	
+=======================================
+
+Firmware: v2.05WW Build: 05Beta01
+Hardware: B1
+Date: 13, Dec, 2010 
+
+Firmware Version: ver2.05WWb05Beta01 
+Firmware Date: Mon, 13, Dec, 2010 
+checksum: 0x07E2A657
+
+Problems Resolved & Enhancements:
+1. Fixed beta firmware.
+=======================================
+
+Firmware: v2.05WW Build: 05
+Hardware: B1
+Date: 10, Dec, 2010 
+
+Firmware Version: ver2.05WWb05 
+Firmware Date: Fri, 10, Dec, 2010 
+checksum: 0x07DB861F
+
+
+Problems Resolved & Enhancements:
+1. Support IPv6 Spec v1.14R phase 1
+2. Fixed when choice time format to 12-hour. Set start time to 11:00AM, end time to 12:00PM and save setting. Then edit the Schedule Rule List. The end time would displayed 12:00AM not 12:00PM. 
+3. Fixed When the "Account name" field is empty, the "Save settings" button still can be pressed and applied without any warning message.
+4. Modify DDNS Type option: www.dlinkddns.com(Free),www.dyndns.com(Custom),www.dyndns.com(Free)
+5. Fixed host name cannot empty.	
+=======================================
+
+Firmware: v2.05WW Build: 04
+Hardware: B1
+Date: 25, Nov, 2010 
+
+Firmware Version: ver2.05WWb04 
+Firmware Date: Thu, 25, Nov, 2010 
+
+checksum: 0x07DC12A8
+
+Problems Resolved & Enhancements:
+1. Support IPv6 to V1.13R. (Do not support IPv6 firewall). 
+2. Add CONF_VERSION[].
+3. Fixed BT reboot issue.
+=======================================
+
+Firmware: v2.05WW Build: 03
+Hardware: B1
+Date: 5, Oct, 2010 
+
+Firmware Version: ver2.05WWb03 
+Firmware Date: Tue, 05, Oct, 2010 
+checksum: 0x07E4C962
+
+Problems Resolved & Enhancements:
+1. Fixed sometimes wireless client will fail when login GUI, then reboot DUT cause nvram restore to default .   
+2. Fixed sometimes wan fail, when client user link to Google, it will go to LOGIN webpage, not go to 404 Page.
+3. DWM-156 A3 will fail sometimes.
+=======================================
+
+Firmware: v2.05WW Build: 02
+Hardware: B1
+Date: 1, Oct, 2010 
+
+Firmware Version: ver2.05WWb02 
+Firmware Date: Fri, 01, Oct, 2010 
+checksum: 0x07E51344
+
+Problems Resolved & Enhancements:
+1. Fixed that 6to4 relay can't support dns.
+2. Fixed that lan ipv6 addr not clear when dhcp-pd released. 
+3. Fixed Static IPv6 Prefix Length Issue(must be Integer and in range of 1~126).
+4. Fixed Save configuration very slow.
+5. Fixed wepkey only support one key. (Removed Default WEP Key option)
+6. Support DWM-152/156 A3
+=======================================
+
+Firmware: v2.05WW Build: 01 Beta01
+Hardware: B1
+Date: 30, Sep, 2010 
+
+Firmware Version: ver2.05WWb01Beta01 
+Firmware Date: Thu, 30, Sep, 2010 
+hecksum: 0x07E456B2
+Problems Resolved & Enhancements:
+1. Fixed DIR-825_B1_v2.01WWB07Beta01-Multicast issue with enabled NETWORK FILTER.
+=======================================
+
+Firmware: v2.05WW Build: 01
+Hardware: B1
+Date: 29, Sep, 2010 
+
+Firmware Version: ver2.05WWb01 
+Firmware Date: Wed, 29, Sep, 2010 
+checksum: 0x07E52ABA
+Problems Resolved & Enhancements:
+1. Fixed WEP Key only support one key. 
+2. Enable option 33/121 for Russia
+3. Support DWM-152/156 A3
+4. Support IPv6 to V1.12R. (Do not support IPv6 firewall).
+=======================================
+
+Firmware: v2.04WW Build: 01 Beta01
+Hardware: B1
+Date: 23, Sep, 2010 
+
+Firmware Version: ver2.04WWb01Beta01 
+Firmware Date: Thu, 23, Sep, 2010 
+checksum: 0x07E4A39B
+Problems Resolved & Enhancements:
+1. Fixed that beacon stuck caused by some STA can send action frame to inform AP to switch to HT20 which is not necessary.
+=======================================
+
+Firmware: v2.04WW Build: 01
+Hardware: B1
+Date: 03, Sep, 2010 
+
+Firmware Version: ver2.04WWb01 
+Firmware Date: Fri, 03, Sep, 2010 
+checksum: 0x07E42241
+Problems Resolved & Enhancements:
+1. Revised firmware version to 2.04
+=======================================
+
+Firmware: v2.02WW Build: 14
+Hardware: B1
+Date: 26, Aug, 2010 
+
+Firmware Version: ver2.02WWb14 
+Firmware Date: Thu, 26, Aug, 2010 
+CheckSum: 0x07E250B7
+Problems Resolved & Enhancements:
+1. Fixed when user only change Lan settings, pop change IP address message.
+2. Support DLink DNSSEC Spec.
+=======================================
+
+Firmware: v2.02WW Build: 13
+Hardware: B1
+Date: 5, Jul, 2010 
+
+Firmware Version: ver2.02WWb13 
+Firmware Date: Mon, 5, Jul, 2010 
+CheckSum: 0x07E34E5C
+Problems Resolved & Enhancements:
+1.Fixed: When we change the DUT's password and save it.It can't back to login GUI page.
+2.Fixed: [Status ---> Devices Info ---> LAN Computers] WLAN PCs' information does not be displayed. Fixed display WAN site network IP address at LAN computer list.
+=======================================
+
+Firmware: v2.02WW Build: 12
+Hardware: B1
+Date: 2, Jul, 2010 
+
+Firmware Version: ver2.02WWb12 
+Firmware Date: Fri, 2, Jul, 2010 
+CheckSum: 0x07E30502
+Problems Resolved & Enhancements:
+1. Fixed: [WebUI] It is incorrect. Please refer to the screenshot attached.(IE7)
+2. Fixed: When we change the DUT's password and save it.It can't back to login GUI page.
+3. Fixed: [Status ---> Devices Info ---> LAN Computers] WLAN PCs' information does not be displayed.
+=======================================
+
+Firmware: v2.02WW Build: 11
+Hardware: B1
+Date: 17, Jun, 2010 
+
+Firmware Version: ver2.02WWb11 
+Firmware Date: Thu, 17, Jun, 2010 
+CheckSum: 0x07E37801
+Problems Resolved & Enhancements:
+1. Verify: IPv6 DHCPv6 mode isse.
+2. Fixed: When the My USB type is: "WCN Configuration" and "3G USB Adapter", the "Shareport for guest zone" should NOT display.
+3. Fixed: When user input Invalids IP Address in Virtual Server page as below. (Invalids IP: 0.0.0.0 and 255.255.255.255)
+4. Fixed: Russia PPPoE  error message issue.
+5. Verify: [WebUI] It is incorrect. Please refer to the screenshot attached.(IE7)
+=======================================
+
+Firmware: v2.02WW Build: 10
+Hardware: B1
+Date: 3, Jun, 2010 
+
+Firmware Version: ver2.02WWb10 
+Firmware Date: Wed, 03, Jun, 2010 
+CheckSum: 0x07E259D6
+Problems Resolved & Enhancements:
+1. Verify PureNetwork HNAP testing. 
+=======================================
+
+Firmware: v2.02WW Build: 09
+Hardware: B1
+Date: 24, May, 2010 
+
+Firmware Version: ver2.02WWb09 
+Firmware Date: Mon, 24, May, 2010 
+CheckSum: 0x07F60CCB		
+Problems Resolved & Enhancements:
+1. Removed USB 3G phone option.
+2. Fixed 3G USB Adapter function can't work.
+=======================================
+
+Firmware: v2.02WW Build: 08
+Hardware: B1
+Date: 21, Apr, 2010 
+
+Firmware Version: ver2.02WWb08 
+Firmware Date: Wed, 21, Apr, 2010 
+CheckSum: 0x07F5670F		
+Problems Resolved & Enhancements:
+1. Fixed Status-IPv6 page – LAN Computer IPv6 Address display issue
+2. Fixed LAN PC in IPv6 PPPoE mode can’t access to IPv6 network.
+3. Fixed IPv6 PPPoE page – LAN IPv6 Address field MUST NOT display 6to4 IPv6 Address by default
+4. Fixed LAN IPv6 Address field MUST NOT allow user set 6to4 address
+5. Fixed IPv6 PPPoE reconnect function – each connection mode MUST be work
+6. Fixed Remote manage function MUST work for WAN IPv6 Address
+7. Fixed 6to4 relay field MUST allow set IPv4 address and Domain Name
+8. Fixed Subnet Prefix Length SHOULD verify more types. Example, /8, /16, /32, /48, /64, /72, /127, IPv6 Address SHOULD verify more types.
+9. Updated firmware version to 2.02
+=======================================
+
+Firmware: v2.01WW Build: 07Beta02
+Hardware: B1
+Date: 19, Apr, 2010 
+
+Firmware Version: ver2.01WWb07Beta02 
+Firmware Date: Mon, 19, Apr, 2010 
+CheckSum: 0x07F6A550		
+Problems Resolved & Enhancements:
+1. Fixed when user doesn't set schedule page and link to other option webpage, then pop warning message.
+2. Fixed Qos(mbandwidth) send broadcast ICMP Echo Request.
+=======================================
+
+Firmware: v2.01WW Build: 07Beta01
+Hardware: B1
+Date: 14, Apr, 2010 
+
+Firmware Version: ver2.01WWb07Beta01 
+Firmware Date: Wed, 14, Apr, 2010 
+CheckSum: 0x07F6596F		
+Problems Resolved & Enhancements:
+1. Fixed when user doesn't set schedule page and link to other option webpage, then pop warning message.
+2. Fixed when setting wireless schedule, if schedule time has not arrived yet, the wireless radio should be off, but it's not.
+3. Ipv6 clients can’t be shown in list of status.
+4. 6in4 with dhcp-pd mode ,client pc can’t get IP from stateful lan mode.
+5. When assign ipv6 over ipv4 mode dns should in dynamic mode as default mode.(ipv6_6in4_dns_enable=0)
+6. Fixed log texts is too long to break table.
+7. Fixed when 3G USB + PPTP Pass Through, PPTP Pass Through easily disconnect.
+=======================================
+
+Firmware: v2.01WW Build: 07
+Hardware: B1
+Date: 31, Mar, 2010 
+
+Firmware Version: ver2.01WWb07 
+Firmware Date: Mar, 31, Mar, 2010 
+CheckSum: 0x07F552EF		
+Problems Resolved & Enhancements:
+1. Wireless Function. (Performance, IOT, Reliability, WPS)
+2. DDNS (DynDNS) Function.
+3. Enable check IPv6 DNS address.
+4. Set IPv6_pppoe_mtu default value is 1492.
+5. Disable check ipv6 wan proto on wan page.
+6. Fixed PPPoEv6 Static IP is fail.
+7. Fixed IPv6 6in4 don't work.
+8. Fixed IPv6 Network Status: Modify the text "connect" to "connected".
+9. Fixed when apply IPv6 6in4 and IPv6 6to4 will display warning message.
+10. Fixed correcting the DHCP Reservation List of Expires misspelling, it should be "Never".
+11. Removed if DHCP-PD is enabled, DNS server must be obtained automatically under this mode.
+12. Merge 12/24 time format issue.
+=======================================
+
+Firmware: v2.01WW Build: 06Beta02
+Hardware: B1
+Date: 22, Mar, 2010 
+
+Firmware Version: ver2.01WWb06Beta02 
+Firmware Date: Mon, 22, Mar, 2010 
+CheckSum: 0x07F4E9C7		
+Problems Resolved & Enhancements:
+1. Fixed Home Network Administration Protocol (HNAP) vulnerabilities.
+=======================================
+
+Firmware: v2.01WW Build: 06Beta01
+Hardware: B1
+Date: 02, Mar, 2010 
+
+Firmware Version: ver2.01WWb06Beta01 
+Firmware Date: Tue, 02, Mar, 2010 
+CheckSum: 0x07F519A4		
+	
+Problems Resolved & Enhancements:
+1. Fixed IOT issue with Singapore iBurst RJ45 modem in 10Half mode.
+=======================================
+
+Firmware: v2.01WW Build: 06
+Hardware: B1
+Date: 04, Feb, 2010 
+
+Firmware Version: ver2.01WWb06 
+Firmware Date: Thu, 04, Feb, 2010 
+CheckSum: 0x07F42FBB		
+	
+Problems Resolved & Enhancements:
+1.	Added 404 error spec v1.02.
+2.	Support httpd ipv6.
+3.	Support LLMNR support.
+4.	Add WAN 3G phone option.
+5.	Fixed doesn’t check WAN Physical netmask, gateway IP of Russia PPPoE.
+6.	Fixed doesn’t check PPTP netmask IP address of Static Russia PPTP.
+7.	Add 12/24 time format on schedule.
+8.	Fixed 5GHz ? SSID is [dlink_media"'~!@#$%^&*'`~!@#$%` ], then Wireless Network Name of wireless network setting 5GHz is empty.
+9.	Fixed 2.4G / 5G wireless bssid of main & guest_zone are the same.
+=======================================
+
+Firmware: v2.01WW Build: 05
+Hardware: B1
+Date: 28, Jan, 2010 
+
+Firmware Version: ver2.01WWb05 
+Firmware Date: Thu, 28, Jan, 2010 
+CheckSum: 0x07F4F63A								
+	
+Problems Resolved & Enhancements:
+1. Fixed #19: Website Filter function check warning message display incorrect language in Espanol.
+2. Fixed #10: 5G Guest Zone will not display WPA-Enterprise settings.
+3. Fixed #2: No check WAN Physical settings of Russia PPPoE.
+4. Fixed #1: No check PPTP Gateway IP address of Static Russia PPTP.
+5. Fixed #11: Change WAN Type settings cause Router reboot.
+6. Fixed #7: Login account issue.
+7. Added a feature for dlink 404 error spec v1.01.
+=======================================
+
+Firmware: v2.01WW Build: 04Beta01
+Hardware: B1
+Date: 20, Jan, 2010
+
+Firmware Version: ver2.01WWb04Beta01 
+Firmware Date: Wed, 20, Jan, 2010 
+CheckSum: 0x07F4DFF9								
+	
+Problems Resolved & Enhancements:
+1.	Fixed tcp port scan fail in port 0 and 1.
+=======================================
+
+Firmware: v2.01WW Build: 04
+Hardware: B1
+Date: 06, Jan, 2010
+
+Firmware Version: ver2.01WWb04 
+Firmware Date: Wed, 06, Jan, 2010 
+CheckSum: 0x07F36607								
+	
+Problems Resolved & Enhancements:
+1. Fixed PPPoE re-connect issue.
+2. Fixed BT issue.
+=======================================
+
+Firmware: v2.01WW Build: 03Beta02
+Hardware: B1
+Date: 10, Dec, 2009
+
+Firmware Version: ver2.01WWb03beta02 
+Firmware Date: Thu, 10, Dec, 2009 
+CheckSum: 0x07F4F4CC								
+	
+Problems Resolved & Enhancements:
+1. Updated displaying 5 GHz wireless client list by xml.
+2. Fixed GUI show allowed char for setting of hostname.
+3. Fixed DIR-825_A1_v2.01-DCS-5220 and DCS-2120 failed to connect to DIR-825 VIA wireless connection.
+=======================================
+
+Firmware: v2.01WW Build: 03Beta01
+Date: 1, Dec, 2009
+
+Firmware Version: ver2.01WWb03beta01 
+Firmware Date: Tue, 1, Dec, 2009 
+CheckSum: 0x07F26F70									
+	
+Problems Resolved & Enhancements:
+1. Login privilege will be changed by another user login.
+2. Fixed GUI show allowed char for setting of hostname.
+3. Fixed Channel Width 2040 won't saved when configured to 802.11n (Only on 5 GHz)
+4. Fixed when add new schedule, wireless will use the newest schedule rule.
+5. Fixed  Transmit power function does not work for 5 GHz.
+=======================================
+
+Firmware: v2.01WW Build: 03
+Date: 20, Nov, 2009
+
+Firmware Version: ver2.01WWb03 
+Firmware Date: Fri, 20, Nov, 2009 
+CheckSum: 0x07F30704									
+	
+Problems Resolved & Enhancements:
+1. Fixed Transmit power function does not work.
+2. Fixed Channel Width 2040 won't saved when configured to 802.11n (Only on 5GHz)
+=======================================
+
+Firmware: v2.01WW Build: 02
+Hardware: B1
+Date: 4, Nov, 2009
+
+Firmware Version: ver2.01WWb02 
+Firmware Date: Wed, 4, Nov, 2009 
+	
+Problems Resolved & Enhancements:
+1. Support FQDN function.
+2. Fixed GUI show allowed char for setting of hostname.
+3. Fixed when use "user" account, it still can select language.
+=======================================
+
+Firmware: v2.01WW Build: 01
+Hardware: B1
+Date: 20, Oct, 2009
+
+Firmware Version: ver2.01WWb01 
+Firmware Date: Tue, 20, Oct, 2009 
+CheckSum: 0x07F313C9										
+	
+Problems Resolved & Enhancements:
+
+1. Update Kcode module. 
+2. Support E220, DWA-152/156
+3. DIR-825_B1_v2.00b12-May be flood issue.
+4. Fixed Previous configured Port range is still valid to protocol of "Any".
+5. Fixed when change computer name in DHCP reservation will occur error.
+6. Fixed QoS priority range is 1 to 8, but the Qos help description page is 1~255.
+7. Fixed No priority field on Status- Internet Sessions page for confirm Qos setting s priority.
+8. Fixed when enable 3G USB adapter function, it should not access Qos Engine and Routing function pages.(Follow Ubicom)
+9. Fixed QOS: Message wording error when the end port range value less than start port range in remote port range.
+10. Fixed Access Control doesn't check rule name duplicate.( Protocol or Port duplicate follow Ubicom when Protocol="Any")
+11. Fixed Behavior is different for IPv4 & IPv6 PING test.
+12. Fixed https://aaa.bbb.ccc becomes https:/ after clicking save settings.
+13. Fixed Set NetBIOS Scope to “abc,123”, setting CAN be saved but the announced NetBIOS scope becomes “abc”.
+14. GUI admin/user behaviors. When use "user" account login, then web pages should be gray.
+15. GUI Login Fail Alert Message for Dlink model (follow UbiCom)
+16. Fixed Status->Device Info Page issue:
+	Do not allow users to press the "connect" or "DHCP Renew" button after PPPoE/PPTP/L2TP/DHCP connection, and press the "disconnect" or " DHCP Release" button after PPPoE/PPTP/L2TP/DHCP disconnection.
+17. Wireless domain for Russia: Modify Russia 5GHz channel list for Dlink Spec.
+18. Fixed when change Router LAN IP and add DHCP reservation at the same time, the DHCP reservation rules can't be saved.
+19. Fixed schedules rule can not be edit when the rule is used.
+20. Fixed Inbound filter rule in use can not be edited.
+21. Fixed website filtering rules do not work if the website URL/Domain is prefixed "http://" .Prefixed rules will disappear.
+22. Fixed MAC address starting with 08:00:46:EE:D1:C8 won't be accepted. (MAC can not accept 08 at beginning).
+23. Firmware version is 2.01WW
+24. Disable graph_auth_enable in default.
+=========================================================================
+
+Firmware: v2.00WW Build: 12
+Hardware: B1
+Date: 15, May, 2009
+
+Firmware Version: ver2.00WWb12 
+Firmware Date: Fri, 15, May, 2009 
+CheckSum: 0x07F0EA2E	
+										
+	
+Problems Resolved & Enhancements:
+
+1.Fixed TSD#38:The "Server name/IP" field for PPTP/L2TP and Russia PPTP/L2TP should avoid user to input illegal IP. Only Russia PPTP no check field.
+2.Fixed TSD#35:When Enable "Turn MAC Filtering ON and ALLOW computers listed to access the network" function and no input any MAC Address rule, it should appear warning message. 
+3.Fixed TSD#34:Help page don't need "BigPond Connection" description.
+4.Fixed TSD#33:Help Page no have "Advanced DNS service" description.
+5.Fixed TSD#32:Help Page does not have "Russia PPTP", "Russia PPPoE" and "3G USB Adapter" descriptions and titles. But no Russia PPTP/PPPoE Internet page help texts. Need PM to provide.
+6.Close TSD#31:no texts file.-->Help Page no have "ROUTING" and "IPv6" descriptions and Hyper-Link Title. Need PM to provide.
+7.Fixed TSD#30:Help Page no have "USB SETTINGS" description and Hyper-Link Title.
+8.Fixed TSD#14:USB Settings Language description issue.
+9.Add HTTPS option.
+10.Hide Advanced DNS Option.
+=========================================================================
+
+Firmware: v2.00WW Build: 11
+Hardware: B1
+Date: 7, May, 2009
+
+Firmware Version: ver2.00WWb11 
+Firmware Date: Thu, 7, May, 2009 
+CheckSum: 0x07F18EA2	
+										
+	
+Problems Resolved & Enhancements:
+1. Modify CONFIG_AG7100_LEN_PER_TX_DS=512
+2. Support Mac Safari can display autograph pictures.
+3. Support Advanced DNS.
+4. Fixed the Time zone incorrect for Newfoundland that should be GMT -03:30
+5. Support Schedule cannot over 24HR issue.
+=========================================================================
+
+Firmware: v2.00WW Build: 10
+Hardware: B1
+Date: 27, Apr, 2009
+
+Firmware Version: ver2.00WWb10 
+Firmware Date: Mon, 27, Apr, 2009 
+CheckSum: 0x07F0BC5E	
+										
+	
+Problems Resolved & Enhancements:
+1. Fixed ISP's name issue in WAN 3G mode settings page, Chunghua-->Chunghwa.
+2. Fixed BT issue.
+3. Fixed igmp snooping.
+=========================================================================
+
+Firmware: v2.00WW Build: 09
+Hardware: B1
+Date: 2, Apr, 2009
+
+Firmware Version: ver2.00WWb09 
+Firmware Date: Thu, 2, Apr, 2009 
+CheckSum: 0x7F3E8ED	
+										
+	
+Problems Resolved & Enhancements:
+1. Fixed Wireless client site survey will get none security when router set Channel Width auto(20/40) in wpa2-AES and WPS not disable..
+2. Fixed Setting EAP does not warning messenger when WPS enable.
+=========================================================================
+
+Firmware: v2.00WW Build: 08
+Hardware: B1
+Date: 2, Apr, 2009
+
+Firmware Version: ver2.00WWb08 
+Firmware Date: Thu, 2, Apr, 2009 
+CheckSum: 0x7F3CB03	
+										
+Problems Resolved & Enhancements:
+1. Fixed #No.16- Network Filter warning message issue.
+2. Fixed #No.11- password setting of WAN wizard can't keep issue.
+3. Fixed #No.15 - When set QoS Priority over 1~ 8 ranges, and then click "Save Settings" button. It will appear the warning message, but click "OK" button that it change to saving windows page.
+4. Fixed #No.20- Incorrect warning message when login.
+5. Fixed #No.23- Email Now function fail on Language Espanol.
+6. Fixed #No.6 - When DUT Internet type is Static IP, the pull-down menu display error.
+=========================================================================
+
+Firmware: v2.00WW Build: 07
+Hardware: B1
+Date: 27, Mar, 2009
+
+Firmware Version: ver2.00WWb07 
+Firmware Date: Fri, 27, Mar, 2009 
+CheckSum: 0x7F315F8		
+										
+Problems Resolved & Enhancements:
+1. Fixed #No.24- Firmware Help page error.
+2. Verify #No.23- Email Now function fail on Language Espanol.
+3. Verify #No.22- IPv6 - DHCPv6 Stateful failed at PPPoE Mode.
+4. Verify #No.21- IPv6 Auto configuration menu error of 6 in 4 Tunnel Mode.
+5. Verify #No.20- Incorrect warning message when login.
+6. Fixed #No.18- 5G Guest WEP-128 bit Key issue
+7. Fixed #No.17 - Status button display error
+8. Fixed #No.15 - When set QoS Priority over 1~ 8 ranges, and then click "Save Settings" button. It will appear the warning message, but click "OK" button that it change to saving windows page.
+9. Fixed #No.10 - Static IP settings of WAN wizard display location issue.
+10. Verify #No.6 - When DUT Internet type is Static IP, the pull-down menu display error.
+11. Verify #No.5 - Pop-up a Espanol warning message as below in English UI when the Virtural Server Port Setting conflict with Port Forwarding rules.
+12.Fixed #No.2 - Change option to either one in drop-down menu then click save setting will occur a "Not thing changed" warning message.  If click "Yes" to continue, settings are saved and working properly. 
+13. Verify #No.1 - 3G USB Adaptor display error.
+14. Fixed #No.13 - PPPoE service name cause connection to Internet failed.
+15. Fixed #No.12 - PPPoE service name can't display.
+16. Support igmp snoopy function.
+17. Modify the count down time is 40s when setting wan page.
+=========================================================================
+
+Firmware: v2.00WW Build: 06
+Hardware: B1
+Date: 23, Mar, 2009
+
+Firmware Version: ver2.00WWb06 
+Firmware Date: Mon, 23, Mar, 2009 
+CheckSum: 0x7DFE535			
+										
+	
+Problems Resolved & Enhancements:
+1. Removed the WPS warning message when setting WPA-TKIP/AES.
+=========================================================================
+
+Firmware: v2.00WW Build: 05
+Hardware: B1
+Date: 23, Mar, 2009
+
+Firmware Version: ver2.00WWb05 
+Firmware Date: Mon, 23, Mar, 2009 
+CheckSum: 0x7DFA8DB			
+										
+	
+Problems Resolved & Enhancements:
+1. Removed the WPS warning message when setting WPA-TKIP/AES.
+2. Fixed USB 3G drop menu error.
+3. Fixed Russia PPTP can't save.
+4. Fixed Static Routing doesn't have wan physical.
+5. Fixed Login pop warning message always display.
+6. Fixed wording error on 802.11 n only.
+7. Fixed the NAME of LAN Computers sometimes display empty on device information.
+=========================================================================
+
+Firmware: v2.00WW Build: 04
+Hardware: B1
+Date: 16, Mar, 2009
+
+Firmware Version: ver2.00WWb04 
+Firmware Date: Mon, 16, Mar, 2009 
+CheckSum: 0x7E04CD4			
+										
+	
+Problems Resolved & Enhancements:
+1. Fixed sometimes on different config pages, the frames are a little bit too wide.
+2. Fixed The DIR-825 shows its time as "NaN" or the time will not be changed regarding the set time zone, the DIR-825 shows the NTP time.
+3. Fixed On this config page in wireless wizard there is a page error.
+4. Fixed there is a page error when user try to change the Cipher Type to "TKIP and AES" on wireless setting.
+5. Fixed when I configure an Access control rule there are three not named buttons.
+6. Fixed WAN Port Speed to Auto 10/100/1000Mbps.
+7. Remove "Transmission Rate" information of "Wireless" support page
+8. Fixed Floating message error of "Schedule Rules List"(Both "Edit" and "Delete" are incorrect).
+9. Fixed Button name error of Access Control.
+10. Fixed UI message error of "Load configuration File" (Both messages for "Failed" and "Success" loading are disappeared.)
+11. Remove GuestWPS, WISH option on st_device.asp.
+12. Add USB 3G country and ISP drop menu.		
+13. Fixed Configure the Router LAN IP to different IP subnet will not change the "DHCP IP range" IP subnet.
+14. Fixed Russia mode when PPP/PPPoE does not connect to server, the status page should display physical IP.	
+Detail          
+15. Fixed status->routing show up disabled static routing rules.
+16. Fixed: 802.11n only not support security WEP or TKIP
+17. Fixed: 5G WEP/GuestZone default key display error.
+
+=========================================================================
+Firmware: v2.00WW Build: 03
+Hardware: B1
+Date: 26, Feb, 2009
+
+Firmware Version: ver2.00WWb03
+Firmware Date: Thu, 26, Feb, 2009 
+CheckSum: 0x7DF5C8E			
+										
+	
+Problems Resolved & Enhancements:
+
+1. Fixed firmware query cannot download.
+2. Removed the empty option on Web UI 5G channel list.
+3. Add shareport option on usb setting.
+4. Please verify Widget and Gadget.
+
+=========================================================================
+
+Firmware: v2.00WW Build: 02
+Hardware: B1
+Date: 26, Feb, 2009
+
+Firmware Version: ver2.00WWb02 
+Firmware Date: Thu, 26, Feb, 2009 
+CheckSum: 0x7DD8416 		
+										
+	
+Problems Resolved & Enhancements:
+
+1. Fixed firmware query cannot download.
+2. Fixed 3G warning message error.
+3. Fixed change language error on status page.
+4. Fixed DDNS cannot save Server Address.
+5. Fixed language list error on login page.
+6. Fixed some web pages display error when change language.
+7. Fixed Russia mode when PPP/PPPoE does not connect to server, the status page should display physical IP.
+8. Please verify Widget and Gadget.
+
+=========================================================================
+
+Firmware: v2.00WW Build: 01
+Hardware: B1
+Date: 20, Feb, 2009
+
+Firmware Version: ver2.00EUb02 
+Firmware Date: Fri, 20, Feb, 2009 
+CheckSum: 0x7DDEF46
+
+Problems Resolved & Enhancements:
+
+1.First Release.
